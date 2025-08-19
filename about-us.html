@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service - About Us</title>
+    <link rel="stylesheet" href="assets/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+
+   <div class="fixed w-full z-[999] " id="header">
+        <header class="lg:max-w-[90%] mx-auto uppercase font-semibold flex justify-center items-center">
+            <div class="logo"><a href="index.html">Services</a></div>
+            <nav >
+                <ul class="">
+                    <li class="group">
+                        <div>
+                            <a href="index.html">Home</a>
+                            <div
+                                class="w-full h-[1px] opacity-0 group-hover:opacity-100 transition-all ease-in duration-500 relative overflow-hidden">
+                                <div
+                                    class="absolute inset-0 txt-clr transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-in">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="group">
+                        <div>
+                            <a href="about-us.html">About</a>
+                            
+                            <div
+                                class="lg:block hidden w-full h-[1px] txt-clr">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown group">
+                        <a href="#">Services</a>
+                        <div
+                            class="w-full h-[1px] opacity-0 group-hover:opacity-100 transition-all ease-in duration-500 relative overflow-hidden">
+                            <div
+                                class="absolute inset-0 txt-clr transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-in">
+                            </div>
+                        </div>
+                        <div id="drop-menu" class="menu-dropdown text-black text-[16px] capitalize">
+                            <a href="#"  class="lg:border-b-2  drop-item"><img src="assets/images/accounting.png" alt="" class="w-[30px] h-[30px] rounded-lg">accounting</a>
+                            <a href="#" class="lg:border-b-2"><img src="assets/images/bookkeeping1.png" alt="" class="w-[30px] h-[30px] rounded-lg">Book keeping</a>
+                            <a href="#" class="lg:border-b-2"><img src="assets/images/business.png" alt="" class="w-[30px] h-[30px] rounded-lg">Google & Social media</a>
+                        </div>
+                    </li>
+
+                    <li class="group contact-main">
+                        <div>
+                            <a href="contact-us.html">Contact</a>
+                            <div
+                                class="w-full h-[1px] opacity-0 group-hover:opacity-100 transition-all ease-in duration-500 relative overflow-hidden">
+                                <div
+                                    class="absolute inset-0 txt-clr transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-in">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Banner -->
+
+    <div class="relative h-[200px] overflow-hidden md:h-[350px] z-[1] mb-4 shadow-lg shadow-purple-300">
+        <img src="assets/images/bookkeeping.jpg"
+            class="absolute inset-0 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="Banners...">
+        <div class="absolute inset-0 bg-[rgb(5_5_5_/20%)]">
+            <div class="absolute z-[999] top-[80%] transform md:left-10 left-2 -translate-y-1/2 text-white">
+                <h2 class=" lg:text-5xl  md:text-2xl text-lg font-[600] uppercase" data-aos="fade-down"
+                    data-aos-duration="1500">
+                    About Us
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- main Section -->
+    <div class="mt-10">
+        <div class="flex lg:flex-row gap-8 flex-col justify-between lg:max-w-[90%] md:max-w-[80%] max-w-[95%] mx-auto items-center">
+            <div class="lg:w-[55%] md:text-lg md:pe-16 text-justify">
+                <h1 class="text-4xl mb-4 font-semibold">Who We Are</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat itaque numquam iure error fugiat, sapiente officia, similique labore reprehenderit possimus laboriosam et ducimus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, perspiciatis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat itaque numquam iure error fugiat, sapiente officia, similique labore reprehenderit possimus laboriosam et ducimus.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex officiis quas dolorum perferendis quasi id?</p>
+
+                <ul class="ms-3 mt-4 text-sm md:text-lg">
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+            <div class="lg:w-[45%] w-[80%] mx-auto relative">
+                <img src="assets/images/slide4.jpg" alt="" class="z-[1] shadow  shadow-indigo-600" data-aos="fade-down"
+                    data-aos-duration="1500">
+                <div class="w-full h-full bg-sky-300 absolute md:top-20 top-10 right-10 md:right-16 z-[-2]" data-aos="fade-up"
+                    data-aos-duration="1000"></div>
+                <div class="w-full h-[80%] bg-blue-400 absolute md:top-8 top-6 left-8 md:left-10 z-[-1] " data-aos="fade-left"
+                    data-aos-duration="1500"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="mt-28 bg-gray-200">
+        <div class="flex lg:flex-row-reverse flex-col justify-between lg:max-w-[90%] md:max-w-[80%] max-w-[95%] mx-auto items-center">
+            <div class="md:w-[40%]">
+                <img src="assets/images/scope.jpg" alt="">
+            </div>
+            <div class="md:w-[50%]">
+                <h2 class="text-xl font-semibold">Why Choose Us</h2>
+                <ul class="ms-3 mt-4 text-sm md:text-lg">
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                    <li class="flex gap-2 text-justify" data-aos="fade-right" data-aos-duration="1500"><ion-icon
+                            name="checkmark-done-circle-outline"
+                            class="text-indigo-600 md:text-2xl text-lg mt-1  min-w-[10%] md:min-w-[5%]"></ion-icon>Lorem ipsum dolor
+                        sit
+                        amet, consectetur adipisicing elit.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-white border-t-2 border-slate-300 mt-14">
+        <div class="max-w-[90%] mx-auto py-3 flex justify-around flex-wrap">
+            <div class="lg:w-[30%] w-[100%] md:w-[50%]">
+                <div class="logo"><a href="index.html">Services</a></div>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, adipisci
+                    voluptate?
+                    Eos impedit autem officiis expedita? Ullam, in.</p>
+            </div>
+            <div class="w-[100%] md:w-[40%] lg:w-fit">
+                <h1 class="text-lg font-bold uppercase my-4">Contact Us</h1>
+                <div class="text-[16px]">
+                    <p><span class="text-slate-700 font-semibold">Tel:</span> 073-6985-5773</p>
+                    <p><span class="text-slate-700 font-semibold">Email:</span> mdrizwanb786@gmail.com</p>
+                    <p><span class="text-slate-700 font-semibold">Address:</span> 654 Sycamore Avenue, BIHAR, IN 843108</p>
+                </div>
+            </div>
+            <div class="w-[40%] lg:w-fit">
+                <h1 class="text-lg font-bold uppercase my-4">Services</h1>
+                <ul>
+                    <li class="flex items-center  gap-x-2">
+                        <div class="rounded-full bg-slate-700 w-2 h-2"></div> Accounting
+                    </li>
+                    <li class="flex items-center  gap-x-2">
+                        <div class="rounded-full bg-slate-700 w-2 h-2"></div> Book Keeping
+                    </li>
+                    <li class="flex items-center gap-x-2">
+                        <div class="rounded-full bg-slate-700 w-2 h-2"></div> Google & Social Media
+                    </li>
+                </ul>
+            </div>
+            <div class="w-[40%] lg:w-fit">
+                <h1 class="text-lg font-bold uppercase my-4">Follow Us</h1>
+                <div class="flex justify-around">
+                    <p class="flex items-center gap-1"><span class="text-xl font-bolder text-slate-700 "><ion-icon
+                                name="logo-facebook" class="text-2xl"></ion-icon></span></p>
+                    <p class="flex items-center gap-1"><span class="text-xl font-bolder text-slate-700 "><ion-icon
+                                name="logo-twitter" class="text-2xl"></ion-icon></span> </p>
+                    <p class="flex items-center gap-1"><span class="text-xl font-bolder text-slate-700 "><ion-icon
+                                name="logo-linkedin" class="text-2xl"></ion-icon></span> </p>
+                </div>
+            </div>
+        </div>
+        <p class="text-center bg-slate-300 text-slate-800 p-2 border-slate-700">© Copyright <span
+                class="font-bold text-slate-900">Services</span>. All Rights Reserved</p>
+    </footer>
+
+
+
+    <script src="assets/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
